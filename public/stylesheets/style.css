@@ -1,0 +1,145 @@
+body { 
+  background-color: #fff; 
+  color: #333; 
+  padding: 0px;
+  margin: 0px;
+}
+
+body, p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size:   13px;
+  line-height: 18px;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a { color: #000; }
+a:visited { color: #666; }
+a:hover { color: #fff; background-color:#000; }
+
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+/*
+ * Cdigo especifico para carrito de compras
+ */
+#head{
+  background-color: #454488; /* Color de fondo*/
+  font-weight: bold; /* letras negridas*/
+  font-size: 3.2em; /* Tamaño del texto */
+  font-style: italic; /* Estilo de font */
+  color: #FFF; /* Color del texto */
+  padding: 30px 20px; /* espacio dentro arriba y abajo 30px, izquierda y derecha 20px */
+}
+
+#head2{
+  background-color: #6564A8; /* Color de fondo*/
+  font-weight: bold; /* letras negridas*/
+  font-size: 2.2em; /* Tamaño del texto */
+}
+
+#head div.usuario{
+  float: right;
+  width: 50%;
+  text-align: right;
+  margin-top: -15px;
+}
+#head div.usuario a{
+  font-size: 0.3em;
+  vertical-align: top;
+  color: #EDBE16;
+  font-style: normal;
+}
+
+#content{
+  padding: 4px 10px;
+}
+
+label{
+  color: #2E2E2E;
+  font-weight: bold;
+}
+
+table{
+  border-collapse: collapse; /* Colapsar bordes para que no existan espacios entre celdas */
+}
+table th{
+  background-color: #2E2E6E;
+  color: #FFF;
+  padding: 6px 8px;
+  margin: 0px;
+  border: none;
+}
+
+table td{
+  margin: 0px;
+  padding: 6px 8px;
+}
+
+table tr{
+  border-bottom: 1px solid #CFCFCF; /* boder abajo 1 pixel solido color */
+}
+
+a.nuevo{
+  font-weight: bold;
+  font-size: 1.1em;
+  padding-left: 16px;
+  background-image: url(../images/add.png);
+  background-repeat: no-repeat;
+}
+
+a.salir{
+  padding-left: 16px;
+  background: transparent url(../images/logout.png) no-repeat;
+}
+
+ul#listado_productos{
+  list-style: none;
+}
+
+ul#listado_productos li{
+  list-style: none;
+}
+
+ul#listado_productos .precio{
+  font-weight: bold;
+  font-size: 1.3em;
+  vertical-align: top;
+}

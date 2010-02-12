@@ -1,0 +1,8 @@
+  <tr>
+    <td><%=h publicacion.titulo %></td>
+    <td><%=h publicacion.mensaje %></td>
+    <td><img src="<%= publicacion.foto.url(:mini) %>"></td>
+    <td><%= link_to 'Mostrar', publicacion %></td>
+    <td><%= link_to 'Editar', edit_publicacion_path(publicacion) %></td>
+    <td><%= link_to 'Eliminar', publicacion, :confirm => 'Esta seguro?', :method => :delete %></td>
+  </tr>

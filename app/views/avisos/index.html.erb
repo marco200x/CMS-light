@@ -1,0 +1,17 @@
+<h1>Lista de Avisos</h1>
+
+<table>
+  <tr>
+    <th>Titulo</th>
+    <th>URL</th>
+    <th>Imagen</th>
+  </tr>
+
+<%= render @avisos %>
+
+</table>
+<%= will_paginate @avisos %>
+<br />
+
+<%= link_to 'Nuevo Aviso', new_aviso_path %>
+<%= link_to 'Regresa al MENU', configuracions_path %>

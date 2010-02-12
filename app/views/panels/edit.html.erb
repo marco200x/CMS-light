@@ -1,0 +1,12 @@
+<h1>Editing panel</h1>
+
+<% form_for(@panel) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @panel %> |
+<%= link_to 'Back', panels_path %>

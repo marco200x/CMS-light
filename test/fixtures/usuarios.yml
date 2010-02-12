@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  nombre: MyString
+  apellido: MyString
+  cumple: 2010-01-30
+  login: MyString
+  pass: MyString
+  tipo: MyString
+
+two:
+  nombre: MyString
+  apellido: MyString
+  cumple: 2010-01-30
+  login: MyString
+  pass: MyString
+  tipo: MyString

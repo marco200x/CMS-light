@@ -1,0 +1,15 @@
+<p>
+  <b>Titulo:</b>
+  <%=h @aviso.titulo %>
+</p>
+
+<p>
+  <b>URL:</b>
+  <%=h @aviso.url %>
+</p>
+
+<p>
+  <img src="<%= @aviso.foto(:medio) %>">
+</p>
+<%= link_to 'Editar', edit_aviso_path(@aviso) %> |
+<%= link_to 'Regresar', avisos_path %>

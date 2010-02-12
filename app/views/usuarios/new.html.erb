@@ -1,0 +1,39 @@
+<h1>Nuevo Usuario</h1>
+
+<% form_for(@usuario) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :nombre %><br />
+    <%= f.text_field :nombre %>
+  </p>
+  <p>
+    <%= f.label :apellido %><br />
+    <%= f.text_field :apellido %>
+  </p>
+  <p>
+    <%= f.label :login %><br />
+    <%= f.text_field :login %>
+  </p>
+  <p>
+    <%= f.label :pass %><br />
+    <%= f.password_field :pass %>
+  </p>
+  <p>
+    <%= f.label :pass_confirmation %><br />
+    <%= f.password_field :pass_confirmation %>
+  </p>
+  <p>
+    <%= f.label :tipo %><br />
+    <%= f.select :tipo, Usuario::TIPOS, {:include_blank => true} %>
+  </p>
+  <p>
+    <%= f.label :fecha_nacimiento %><br />
+    <%= f.date_select :fecha_nacimiento %>
+  </p>
+  <p>
+    <%= f.submit 'Crear' %>
+  </p>
+<% end %>
+
+<%= link_to 'Regresar', usuarios_path %>

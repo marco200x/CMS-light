@@ -1,0 +1,17 @@
+<h1>Ingreso</h1>
+
+<% form_for @usuario, :url => {:controller => :session} do |f| -%>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :login %><br />
+    <%= f.text_field :login %>
+  </p>
+  <p>
+    <%= f.label :pass %><br />
+    <%= f.password_field :pass %>
+  </p>
+  <p>
+    <%= f.submit "Ingresar" %>
+    <%= link_to 'Regresa al MENU', panels_path %>
+  </p>
+<% end -%>

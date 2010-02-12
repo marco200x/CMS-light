@@ -1,0 +1,15 @@
+<p>
+  <b>Titulo:</b>
+  <%=h @publicacion.titulo %>
+</p>
+
+<p>
+  <b>Texto:</b>
+  <%=h @publicacion.mensaje %>
+</p>
+
+<p>
+  <img src="<%= @publicacion.foto(:medio) %>">
+</p>
+<%= link_to 'Editar', edit_publicacion_path(@publicacion) %> |
+<%= link_to 'Regresar', publicacions_path %>

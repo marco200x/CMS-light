@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  usuario_id: 1
+  fecha: 2007-12-10 06:50:16
+  total: 9.99
+
+two:
+  usuario_id: 1
+  fecha: 2007-12-10 06:50:16
+  total: 9.99

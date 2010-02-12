@@ -1,0 +1,19 @@
+<% form_for(@aviso, :html=>{:multipart=>true}) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :titulo %><br />
+    <%= f.text_field :titulo%>
+  </p>
+  <p>
+    <%= f.label :url %><br />
+    <%= f.text_field :url %>
+  </p>
+  <p>
+    <%= f.label :foto, "Imagen" %>
+    <%= f.file_field :foto, :size=>60 %>
+  </p>
+  <p>
+    <%= f.submit 'Crear' %>
+  </p>
+  <% end %>

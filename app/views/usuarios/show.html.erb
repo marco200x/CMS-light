@@ -1,0 +1,33 @@
+<p>
+  <b>Nombre:</b>
+  <%=h @usuario.nombre %>
+</p>
+
+<p>
+  <b>Apellido:</b>
+  <%=h @usuario.apellido %>
+</p>
+
+<p>
+  <b>Cumple:</b>
+  <%=h @usuario.fecha_nacimiento %>
+</p>
+
+<p>
+  <b>Login:</b>
+  <%=h @usuario.login %>
+</p>
+
+<p>
+  <b>Pass:</b>
+  <%=h @usuario.pass %>
+</p>
+
+<p>
+  <b>Tipo:</b>
+  <%=h @usuario.tipo %>
+</p>
+
+
+<%= link_to 'Editar', edit_usuario_path(@usuario) %> |
+<%= link_to 'Regresar', usuarios_path %>

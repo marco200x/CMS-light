@@ -1,0 +1,8 @@
+  <tr>
+    <td><%=h aviso.titulo %></td>
+    <td><%=h aviso.url %></td>
+    <td><img src="<%= aviso.foto.url(:mini) %>"></td>
+    <td><%= link_to 'Mostrar', aviso %></td>
+    <td><%= link_to 'Editar', edit_aviso_path(aviso) %></td>
+    <td><%= link_to 'Eliminar', aviso, :confirm => 'Esta seguro?', :method => :delete %></td>
+  </tr>

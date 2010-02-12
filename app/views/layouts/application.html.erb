@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>CMS light</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-language" content="es">
+<meta name="author" content="Marco Laura">
+
+<!-- Llamada al estilo usando el helper -->
+<%= stylesheet_link_tag 'style.css' %>
+
+</head>
+<body>
+ <div id="wrap">
+   <div id="head">
+     Sistema CMS light
+     <div class="usuario">
+        <%= mostrar_usuario %>
+     </div>
+   </div>
+   <div id="content">
+   <!--Contenido-->
+   <%= yield %>
+   </div>
+ </div>
+</body>
+</html>

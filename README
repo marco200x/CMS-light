@@ -1,0 +1,5 @@
+El siguiente trabajo es un ejemplo sencillo de un sistema de registro de publicaciones.
+
+Cuenta con 2 frentes, la pantalla donde se muestra las publicaciones y avisos.
+
+La otra pantalla es un backend, en el cual se permite registrar las cuentas de usuarios, las publicaciones y los avisos respectivos.
